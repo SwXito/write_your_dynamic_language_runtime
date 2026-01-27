@@ -46,7 +46,6 @@ public class StackInterpreterInstrTests {
 		return outStream.toString(UTF_8).replace("\r\n", "\n");
 	}
 
-	/*
 	@Nested
   public class Q2 {
 		@Test
@@ -558,7 +557,7 @@ public class StackInterpreterInstrTests {
 			assertEquals("undefined\n", execute(new Code(main, 1, 1), dict));
 		}
 	}
-
+/*
 	@Nested
 	public class Q11 {
 		@Test
